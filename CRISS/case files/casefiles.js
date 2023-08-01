@@ -9,7 +9,7 @@ function hideSidebar() {
 function resetTimeout() {
   document.body.classList.add('show-sidebar');
   clearTimeout(timeout);
-  timeout = setTimeout(hideSidebar, 10000); // Hide sidebar after 5 seconds of inactivity
+  timeout = setTimeout(hideSidebar, 25000); // Hide sidebar after 5 seconds of inactivity
 }
 
 window.onload = function() {
@@ -61,7 +61,7 @@ if(logup.style.display === addelement){
         profile.style.paddingTop = "1rem"
         logup.style.display = "none"
 
-    }
+      }
 
 }
 
